@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Robin Rettien</title>
   <link rel="stylesheet" href="assets/css/application.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <link
+  rel="stylesheet"
+  href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css"
+/>
 </head>
 <body>
   <header class="header" id="header">
@@ -13,34 +18,34 @@
       <a href="" class="nav__logo">Robin</a>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list grid">
-          <li class="nav__item"> 
+          <li class="nav__item">
             <a href="Home" class="nav__link">
-              <i class="fa-regular fa-house-blank"></i> Home
+              <i class="fa-sharp fa-solid fa-house nav__icon"></i>Home
             </a>
           </li>
           <li class="nav__item">
             <a href="Propos" class="nav__link">
-              <i class="fa-regular fa-user"></i> A propos
+              <i class="fa-regular fa-user nav__icon"></i> A propos
             </a>
           </li>
           <li class="nav__item">
             <a href="Compétences" class="nav__link">
-              <i class="fa-regular fa-file"></i> Compétences
+              <i class="fa-solid fa-chart-simple nav__icon"></i> Compétences
             </a>
           </li>
           <li class="nav__item">
-            <a href="Services" class="nav__link">
-              <i class="fa-regular fa-briefcase"></i> Services
+            <a href="Compétences" class="nav__link">
+              <i class="fa-solid fa-laptop nav__icon"></i> Services
             </a>
           </li>
           <li class="nav__item">
             <a href="Portfolio" class="nav__link">
-              <i class="fa-regular fa-image"></i> Portfolio
+              <i class="fa-regular fa-image nav__icon"></i> Portfolio
             </a>
           </li>
           <li class="nav__item">
             <a href="Contact" class="nav__link">
-              <i class="fa-regular fa-messages"></i> Contacte moi
+              <i class="fa-regular fa-paper-plane nav__icon"></i> Me contacter
             </a>
           </li>
         </ul>
@@ -48,10 +53,45 @@
       </div>
       <div class="nav__btns">
         <div class="nav__toggle" id="nav-toggle">
-
+          <i class="fa-solid fa-bars"></i> Menu
         </div>
       </div>
     </nav>
   </header>
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container grid">
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/robin-rettien-b30067115/" target="_blank" class="home__social-icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/RobinRTN/" target="_blank" class="home__social-icon">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <div class="home__img">
+          <?xml version="1.0" standalone="no"?>
+          <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#8A3FFC" d="M33.3,-54.3C43,-45.7,50.4,-36,60.1,-24.6C69.7,-13.1,81.7,0.2,79.1,10.7C76.4,21.1,59.3,28.8,46.2,35C33,41.2,23.9,45.8,12.7,54.1C1.5,62.4,-11.9,74.3,-24.7,74.8C-37.5,75.3,-49.7,64.5,-56,51.6C-62.2,38.8,-62.6,23.9,-61.1,10.9C-59.7,-2,-56.3,-13.1,-53.5,-26.5C-50.6,-39.8,-48.1,-55.4,-39.3,-64.4C-30.4,-73.5,-15.2,-75.9,-1.7,-73.2C11.9,-70.6,23.7,-63,33.3,-54.3Z" transform="translate(100 100)" />
+            </svg>
+        </div>
+        <div class="home__data">
+          <h1 class="home__title">Hello ! Je suis Robin Rettien</h1>
+          <h3 class="home__title">Développeur Full-Stack</h3>
+          <a href="#contact" class="button button--flex">
+            Contacte-moi <i class="fa-regular fa-paper-plane nav__icon button__icon"></i>
+          </a>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="fa-solid fa-arrow-down home__scroll-arrow"></i>
+            <span class="home__scroll-name">En bas</span>
+          </a>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
